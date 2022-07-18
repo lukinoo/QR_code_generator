@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5rem 3.7rem;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container form .qr__input {
+  padding: 0.8rem 1.3rem;
+  width: 100%;
+  font-family: inherit;
+  margin-bottom: 1.2rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.container form .qr__button {
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: #9875c4;
+  font-family: inherit;
+  border-radius: 0.2rem;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  align-self: center;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.container form .qr__button:active {
+  transform: scale(0.98);
+}
+
+.container .qr__image__wrapper .qr__image {
+  display: none;
+}
+
+.container .qr__image__wrapper .__error {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
